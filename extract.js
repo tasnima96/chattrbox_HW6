@@ -1,14 +1,16 @@
 var path = require('path');
 
-var extractFilePath = function (url) {
-    var filePath;
-    var fileName = 'index.html';
-    if (url.length > 1) {
-    fileName = url.substring(1);
-    }
-    console.log('The fileName is: ' + fileName);
-    filePath = path.resolve(__dirname, 'app', fileName);
-    return filePath;
+var extractFilePath = function(url) { 
+  var filepath;
+  var filename = 'index.html';
+
+  if (url.length > 1) { 
+    filename = url.substring(1);
+  }
+  console.log('the filename is: ' + filename);
+ 
+  filepath = path.resolve(__dirname, 'app', filename);
+  return filepath;
 };
 
 module.exports = extractFilePath;

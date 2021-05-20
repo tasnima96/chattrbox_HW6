@@ -10,7 +10,7 @@
     "build": "parcel build --no-minify app/scripts/src/main.js -d app/scripts/dist",
     "watch": "parcel watch app/scripts/src/main.js -d app/scripts/dist"
   },
-  "author": "Tasnima",
+  "author": "mccarthy will",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.13.16",
@@ -21,6 +21,9 @@
     "babel-core": "^6.26.3",
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
+    "crypto-js": "^4.0.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
     "nodemon": "^2.0.7",
     "watchify": "^4.0.0"
   },
@@ -31,4 +34,3 @@
     "ws": "^7.4.5"
   }
 }
-
